@@ -7,7 +7,66 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.banner-wrapper {
+  position: absolute;
+  z-index: -1;
+  transform: translateY(-1100px);
+}
+
+.banner {
+  max-width: 100%;
+}
+
+#navbar {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 5em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  transform: translateX(50px);
+}
+
+#navbar ul {
+  transform: translateX(-20%);
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  color: rgb(242, 242, 242);
+  font-size: 1.05em;
+}
+
+#navbar ul li {
+  padding: 0 1em;
+}
+
+.filler {
+  color: rgb(242, 242, 242);
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  height: 6em;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: hsl(0, 0%, 92.5%);
+  /* min-height: 109vh; TEMP FOR TESTING */
+  padding: 5em 0;
+}
+
+.content-photo {
+  max-width: 100%;
 }
