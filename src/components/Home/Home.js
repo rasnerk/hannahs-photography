@@ -2,6 +2,7 @@ import Banner from "./Banner"
 import Welcome from "./Welcome"
 import Socials from "./Socials"
 import Content from "./Content"
+import "./Home.css"
 
 const Home = () => {
     return (

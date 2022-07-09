@@ -7,16 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.banner-wrapper {
-  position: absolute;
-  z-index: -1;
-  transform: translateY(-1100px);
-}
-
-.banner {
-  max-width: 100%;
-}
-
 #navbar {
   position: relative;
   z-index: 1;
@@ -69,4 +59,10 @@ body {
 
 .content-photo {
   max-width: 100%;
+}
+
+@media screen and (max-width < 1250) {
+  .banner-wrapper {
+    transform: translateY(-900px);
+  }
 }
