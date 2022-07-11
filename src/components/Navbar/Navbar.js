@@ -1,5 +1,5 @@
 const Navbar = () => {
-    const navItems = [ {title: "Home"}, {title: "Contact"}, {title: "About"}, {title: "Shop"}, {title: "Blog"}, {title: "Design"}, {title: "Portfolio"}, {title: "Gallery"} ]
+    const navItems = [ {title: "Home"}, {title: "Portfolio"}, {title: "Blog"}, {title: "About"}, {title: "Contact"}, {title: "Shop"} ]
     return (
         <div id="navbar">
             <div id="logo">LOGO</div>
