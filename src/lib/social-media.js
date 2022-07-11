@@ -5,9 +5,6 @@ export const socialMedia = [
     { src: "imgs/email.png", alt: "email", width: 40, height: 40, link: "" },
 ]
 
-// instagram tiktok, pintrist email
 // portfolio dropdown => portrat lifestyle travel gallery
-// pictures on scroll 20-30 pics
-
 // about photos of hannah
 // contact on home page with form and info scroll to
