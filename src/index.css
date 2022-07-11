@@ -59,10 +59,11 @@ body {
   flex-wrap: wrap;
   background-color: hsl(0, 0%, 92.5%);
   /* min-height: 109vh; TEMP FOR TESTING */
-  padding: 5em 0;
+  /* padding: 5em 0; */
 }
 
 .content-photo {
+  padding: 1em;
   max-width: 100%;
 }
 
