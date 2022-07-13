@@ -1,3 +1,4 @@
+import "./Navbar.css"
 const Navbar = () => {
     const navItems = [ {title: "Home"}, {title: "Portfolio"}, {title: "Blog"}, {title: "About"}, {title: "Contact"}, {title: "Shop"} ]
     return (

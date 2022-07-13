@@ -7,8 +7,10 @@ const Home = () => {
     return (
         <div className="home">
             <Banner />
-            <div className="filler"></div>
-            <Socials />
+            <div className="landing-wrapper" style={{position: "relative"}}>
+                <div className="filler"></div>
+                <Socials />
+            </div>
             <Content />
         </div>
     )

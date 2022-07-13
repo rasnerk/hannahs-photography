@@ -7,32 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#navbar {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  min-height: 5em;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#logo {
-  transform: translateX(50px);
-}
-
-#navbar ul {
-  transform: translateX(-20%);
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  color: rgb(242, 242, 242);
-  font-size: 1.05em;
-}
-
-#navbar ul li {
-  padding: 0 1em;
-}
-
 .filler {
   color: rgb(242, 242, 242);
   height: 75vh;

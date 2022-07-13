@@ -58,4 +58,7 @@
     .banner-wrapper {
       transform: translateY(-100px);
     }
+    .filler {
+      height: 50vh;
+    }
   }
